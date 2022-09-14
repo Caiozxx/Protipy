@@ -1,8 +1,12 @@
-.p-3 mb-3 border-bottom{
-    background-color: black;
-}
 .container{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+.carousel-inner{
+    max-width: 700px;
+    max-height: 900px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
