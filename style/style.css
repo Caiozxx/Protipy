@@ -1,9 +1,25 @@
+.html{
+    background-color: black;
+}
 .jumbotron{
-    background-color: beige;
+    background-color: white;
     margin: 10px;
     padding: 20px;
-    justify-content: unset;
     border-radius: 8px;
     border-style:groove;
     border-width: 8px;
 }
+.d-lg-flex{
+    justify-content: end;
+    border-bottom: 3px;
+    border-style:double;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.titulo{
+    text-align: right;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
