@@ -28,3 +28,18 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
 }
+#cardapio{
+
+}
+#cardapio img{
+    padding: 5px;
+    width:300px;
+    height: 230px;
+    border-radius: 9px;
+}
+#item{
+    background-color:rgba(0,0,0, 0.85);
+    margin: 10px;
+    border-radius: 8px;
+    padding:20px;
+}
