@@ -1,25 +1,30 @@
-.html{
-    background-color: black;
+.html {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75em;
+    background-color: gray;
 }
-.jumbotron{
+
+.jumbotron {
     background-color: white;
     margin: 10px;
     padding: 20px;
-    border-radius: 8px;
-    border-style:groove;
+    border-style: groove;
     border-width: 8px;
+    border: none;
 }
-.d-lg-flex{
+
+.d-lg-flex {
     justify-content: end;
     border-bottom: 3px;
-    border-style:double;
+    border-style: double;
     border-bottom: none;
     border-left: none;
     border-right: none;
 }
-.titulo{
+
+.titulo {
     text-align: right;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
 }
-
