@@ -27,11 +27,23 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
 }
+#cardapio{
+    display: flex;
+    flex-direction: row;
+}
+#item{
+
+}
+#cardapio img{
+    padding: 5px;
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+}
 .slider{
     margin: 0 auto;
     width:800px;
     height:400px;
-    overflow: hidden;
 }
 .slides{
     width:400%;
