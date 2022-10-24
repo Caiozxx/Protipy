@@ -1,7 +1,7 @@
 .html {
     width: 100%;
     height:auto;
-    background-color: gray;
+    background-color: #fff;
 }
 
 .jumbotron {
@@ -30,26 +30,39 @@
 #cardapio{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
 }
 #item{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
 
+    background-color:rgba(0,0,0, 0.85);
+    margin: 10px;
+    border-radius: 5px;
+    padding:20px;
 }
 #cardapio img{
     padding: 5px;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     border-radius: 50px;
 }
-.slider{
-    margin: 0 auto;
-    width:800px;
-    height:400px;
+#item p{
+    font-size: 14px;
 }
-.slides{
-    width:400%;
-    height: 400px;
-    display: flex;
+#item button{
+    background-color:#dc143c;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
 }
-.slides input{
-    display: none;
+#item button:hover{
+    background-color:#f74b6d;
 }
