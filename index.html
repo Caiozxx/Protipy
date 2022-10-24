@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="../Protipy/modules/script.js"></script>
 
 </head>
 <!--Criando navbar no header-->
@@ -72,22 +73,34 @@
 
     <div class="slider">
         <div class="slides">
-            <!--radio button-->
+
             <input type="radio" name="radio-btn" id="radio1">
             <input type="radio" name="radio-btn" id="radio2">
             <input type="radio" name="radio-btn" id="radio3">
             <input type="radio" name="radio-btn" id="radio4">
-            <!--fim radio button-->
 
-            <!--navigation auto-->
-            <div class="navigation-auto">
-                <div class="autobtn1"></div>
-                <div class="autobtn2"></div>
-                <div class="autobtn3"></div>
-                <div class="autobtn4"></div>
+            <!--img slides-->
+            <div class="slide first">
+                <img src="../Protipy/src/download.jpg" alt="img1" class="src">
             </div>
-        </div>
+            <div class="slide">
+                <img src="../Protipy/src/test.jpg" alt="img2" class="src">
+            </div>
+            <div class="slide">
+                <img src="../Protipy/src/transferir..jpg" alt="img3" class="src">
+            </div>
+            <div class="slide">
+                <img src="../Protipy/src/transferir.jpg" alt="img4" class="src">
+            </div>
 
+        </div>
+        <!--navigation auto-->
+        <div class="navigation-auto">
+            <div class="autobtn1"></div>
+            <div class="autobtn2"></div>
+            <div class="autobtn3"></div>
+            <div class="autobtn4"></div>
+        </div>
         <div class="manual-navigation">
             <label for="radio1" class="manualbtn"></label>
             <label for="radio2" class="manualbtn"></label>
@@ -124,8 +137,6 @@
         </div>
     </div>
     <!--fim slide img-->
-
-    <script src="../Protipy/modules/script.js"></script>
 </body>
 
 </html>
